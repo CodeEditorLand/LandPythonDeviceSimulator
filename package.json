@@ -1,7 +1,29 @@
 {
 	"name": "__EXTENSIONNAME__",
 	"displayName": "__DISPLAYNAME__",
+	"version": "0.0.1",
+	"private": false,
 	"description": "__DESCRIPTION__",
+	"keywords": [
+		"codeeditorland",
+		"land",
+		"playform"
+	],
+	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/LandPythonDeviceSimulator#readme",
+	"bugs": {
+		"url": "HTTPS://GitHub.Com/CodeEditorLand/LandPythonDeviceSimulator/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+HTTPS://github.com/CodeEditorLand/LandPythonDeviceSimulator.git"
+	},
+	"license": "SEE LICENSE IN LICENSE",
+	"author": {
+		"name": "Source 🖋️ Open 👐🏻",
+		"email": "Source/Open@Editor.Land",
+		"url": "HTTPS://Editor.Land"
+	},
+	"type": "module",
 	"main": "./out/extension.js",
 	"scripts": {
 		"build": "gulp build",
@@ -15,6 +37,7 @@
 		"format:ts": "prettier --config .prettierrc.yaml --write src/**/*.{css,ts,tsx}",
 		"lint:python": "pylint src",
 		"lint:ts": "tslint -c tslint.json src/**/*.{ts,tsx}",
+		"prepublishOnly": "Build 'Source/**/*.ts'",
 		"start": "webpack-dev-server",
 		"test:api-tests": "pytest src",
 		"test:extension-tests": "node ./out/test/runTest.js",
@@ -230,6 +253,7 @@
 		"util": "0.12.5"
 	},
 	"devDependencies": {
+		"@playform/build": "0.2.1",
 		"@types/glob": "8.1.0",
 		"@types/node": "22.13.14",
 		"css-loader": "7.1.2",
@@ -246,6 +270,9 @@
 	"extensionDependencies": [
 		"ms-python.python"
 	],
+	"publishConfig": {
+		"access": "public"
+	},
 	"icon": "assets/icon.png",
 	"preview": true,
 	"instrumentationKey": "__AIKEY__"
