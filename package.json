@@ -245,7 +245,7 @@
 		"@types/socket.io": "3.0.2",
 		"compare-versions": "6.1.1",
 		"eventemitter2": "6.4.9",
-		"glob": "11.0.1",
+		"glob": "11.0.2",
 		"open": "10.1.1",
 		"os": "0.1.2",
 		"socket.io": "4.8.1",
