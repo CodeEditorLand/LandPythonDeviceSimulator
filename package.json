@@ -255,7 +255,7 @@
 	"devDependencies": {
 		"@playform/build": "0.2.3",
 		"@types/glob": "8.1.0",
-		"@types/node": "22.14.1",
+		"@types/node": "22.15.2",
 		"css-loader": "7.1.2",
 		"del": "8.0.0",
 		"event-stream": "4.0.1",
