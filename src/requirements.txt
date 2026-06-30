@@ -1,6 +1,6 @@
 playsound==1.2.2
 applicationinsights==0.11.9
-python-socketio==4.3.1
+python-socketio==5.16.2
 requests==2.22.0
 pywin32==227; platform_system == "Windows"
 PyObjC; platform_system == "darwin"
